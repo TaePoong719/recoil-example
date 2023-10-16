@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRecoilValue,  } from 'recoil'
-import { todoListStatState } from '../atom/TodoAtoms'
+import { todoListStatState } from '../TodoAtoms'
 
 const TodoListStats = () => {
   const {
